@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090c0b">
+  <meta name="description" content="Explorá las publicaciones digitales de Circle Press. Resúmenes interactivos y artículos completos de EHA 2026 y FIMS 2026.">
+  <title>Publicaciones digitales · Circle Press</title>
+  <link rel="icon" href="eha-2026/assets/logo_CP.png">
+  <link rel="preload" href="assets/syne.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/biblioteca.css">
+</head>
+<body class="library-page">
+  <a class="skip-link" href="#publicaciones">Ir a las publicaciones</a>
+  <div class="library-masthead">
+  <div class="hero-background" aria-hidden="true"><canvas id="hero-canvas"></canvas></div>
+  <header class="library-header wrap">
+    <a class="logo" href="index.html" aria-label="Circle Press · Inicio"><img src="assets/circlepress-logo.webp" alt="Circle Press" width="154" height="52"></a>
+    <nav aria-label="Navegación principal"><a class="active" href="#publicaciones">Publicaciones</a><a class="institutional" href="https://www.circlepressmedia.com/" target="_blank" rel="noopener noreferrer">Conocé Circle Press <span aria-hidden="true">↗</span></a></nav>
+  </header>
+    <section class="library-hero wrap" aria-labelledby="page-title">
+      <h1 id="page-title">Publicaciones<br><em>que conectan.</em></h1>
+      <p>La ciencia, en una nueva forma de leer.<br> Explorá nuestros resúmenes interactivos y artículos completos.</p>
+    </section>
+  </div>
+  <main>
+    <section class="collection wrap" id="publicaciones" aria-labelledby="collection-title">
+      <div class="collection-top"><div><p class="section-label">EL CONOCIMIENTO, A UN CLIC</p><h2 id="collection-title">Nuestras publicaciones</h2></div><label class="search"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg><input id="publication-search" type="search" placeholder="Buscar una publicación…" aria-label="Buscar una publicación" autocomplete="off"></label></div>
+      <div class="filter-bar"><div class="filters" role="group" aria-label="Filtrar por especialidad"><button class="selected" type="button" data-filter="all" aria-pressed="true">Todas</button><button type="button" data-filter="hematologia" aria-pressed="false">Hematología</button><button type="button" data-filter="deporte" aria-pressed="false">Medicina del deporte</button></div></div>
+      <div class="publications-grid" id="publication-grid">
+        <article class="publication" data-category="hematologia" data-search="EHA 2026 hematología hematologia blinatumomab LLA-B pediátrica pediatrica AIEOP BFM ALL 2017 leucemia"><a class="publication-link" href="eha-2026/index.html" aria-label="Abrir publicación EHA 2026">
+          <div class="publication-cover eha-cover"><img class="cover-art" src="eha-2026/boletin-animado-demo/assets/cover.webp" alt="Estocolmo y una ilustración de células, portada de EHA 2026" width="1467" height="1290"><span class="cover-shade"></span><span class="cover-type">RESUMEN INTERACTIVO</span><span class="cover-edition"><b>EHA</b><span>2026</span></span><span class="cover-bottom">HEMATOLOGÍA <span aria-hidden="true">↗</span></span></div>
+          <div class="publication-body"><div class="publication-meta"><span>HEMATOLOGÍA</span><span>2026</span></div><h3>Blinatumomab en<br>LLA-B pediátrica</h3><p>Los resultados del estudio AIEOP-BFM ALL 2017, en un resumen visual con acceso al artículo completo.</p></div>
+        </a></article>
+        <article class="publication" data-category="deporte" data-search="FIMS 2026 medicina del deporte Traumeel Heel esguince tobillo Ludger Gerdesmeyer rehabilitacion rehabilitación"><a class="publication-link" href="fims-2026/index.html" aria-label="Abrir publicación FIMS 2026">
+          <div class="publication-cover fims-cover"><img class="cover-art" src="fims-2026/assets/runner-cover.webp" alt="Ilustración de un corredor, portada de FIMS 2026" width="906" height="894"><span class="cover-shade"></span><span class="cover-type">RESUMEN INTERACTIVO</span><span class="cover-edition"><b>FIMS</b><span>2026</span></span><span class="cover-bottom">MEDICINA DEL DEPORTE <span aria-hidden="true">↗</span></span></div>
+          <div class="publication-body"><div class="publication-meta"><span>MEDICINA DEL DEPORTE</span><span>2026</span></div><h3>Un esguince.<br>Una mirada integral.</h3><p>Traumeel y el abordaje integral del esguince lateral de tobillo. Conferencia del Prof. Ludger Gerdesmeyer.</p></div>
+        </a></article>
+      </div>
+      <div class="empty-state" hidden><h3>No encontramos esa publicación.</h3><p>Probá con otro término o explorá todas las especialidades.</p><button type="button" id="clear-search">Ver todas las publicaciones <span aria-hidden="true">↗</span></button></div>
+    </section>
+  </main>
+  <footer class="library-footer wrap"><div><a class="logo" href="index.html" aria-label="Circle Press · Inicio"><img src="assets/circlepress-logo.webp" alt="Circle Press" width="154" height="52" loading="lazy"></a></div><div class="footer-right"><span>© 2026 Circle Press · Publicaciones digitales</span></div></footer>
+  <script src="assets/biblioteca.js" defer></script>
+  <script src="assets/hero-background.js" defer></script>
+</body>
+</html>
