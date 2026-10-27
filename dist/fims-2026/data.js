@@ -1,0 +1,46 @@
+window.PUBLICATION = {
+  "sourceFile": "3665_Heel_News_FIMS26_V3.pdf",
+  "passages": {
+    "approach": {
+      "title": "Abordaje integral y resolución",
+      "page": 1,
+      "pageLabel": "páginas 1–2",
+      "paragraphs": [
+        "“Es solo un esguince de tobillo”. Con esta frase, el Prof. Ludger Gerdesmeyer abrió una conferencia orientada a cuestionar la aparente simplicidad de una de las lesiones musculoesqueléticas más frecuentes. Su punto de partida fue clínico: incluso en deportistas de alto rendimiento, una recuperación incompleta puede traducirse en pérdida de desempeño, recurrencias y dificultad para regresar al nivel previo. Por eso, planteó que el tratamiento debe adaptarse a las demandas de cada paciente y acompañarse de un programa de rehabilitación individualizado.",
+        "El eje conceptual de la presentación fue el soft tissue engineering: entender el esguince como una lesión de tejidos blandos que requiere integrar diferentes componentes, en lugar de aplicar un único protocolo. Gerdesmeyer incluyó el manejo del edema y la inflamación, la carga según tolerancia, el entrenamiento motor y propioceptivo, el stretching tendinoso, el drenaje linfático y, según el caso, otras herramientas físicas. Traumeel®/Tr14 gel fue presentado como un “team player” dentro de esta estrategia integral, y no como una intervención aislada.",
+        "Una parte central de la conferencia estuvo dedicada a diferenciar el bloqueo de la inflamación del apoyo a su resolución. Gerdesmeyer describió la resolución como un proceso endógeno en el que intervienen mediadores especializados pro-resolutivos (SPM), mencionando lipoxinas, resolvinas, protectinas y maresinas. En su explicación, la respuesta neutrofílica inicial participa en la posterior generación de señales necesarias para completar la resolución. En este marco presentó a Tr14 como una formulación que no busca suprimir esa cascada, sino apoyar las vías asociadas con la resolución y la biosíntesis de mediadores pro-resolutivos.¹"
+      ]
+    },
+    "traumed": {
+      "title": "TRAUMED: diseño y dolor al día 7",
+      "page": 2,
+      "paragraphs": [
+        "El recorrido de evidencia clínica comenzó con TAASS, ensayo multicéntrico publicado en 2013 que comparó la aplicación tópica de Traumeel® con diclofenac en el esguince agudo de tobillo. En la conferencia, se destacó la no inferioridad frente al comparador. A continuación, presentó TRAUMED, publicado en 2024: un ensayo prospectivo, multicéntrico, doble ciego y aleatorizado, que incluyó 625 pacientes y comparó Tr14 gel, placebo y diclofenac durante una semana de tratamiento y otra de observación.¹˒²",
+        "El criterio principal de valoración de TRAUMED fue el dolor durante el movimiento pasivo, evaluado mediante la escala visual analógica (EVA). Entre los criterios de valoración secundarios se incluyeron el dolor en reposo, la función, el tiempo hasta alcanzar al menos un 50% de reducción del dolor, el uso de medicación de rescate y la seguridad.³",
+        "Gerdesmeyer mostró una reducción del dolor favorable a Tr14 frente a placebo y resultados de no inferioridad frente a diclofenac, con diferencias favorables en evaluaciones posteriores. La función se evaluó mediante cuestionario Foot and Ankle Ability Measure (FAAM). Destacó que el 50% de reducción del dolor con movimiento se alcanzó aproximadamente un día antes con Tr14 que con placebo o diclofenac; para dolor en reposo, señaló una diferencia de aproximadamente dos días. Resumió que, al día 7, los puntajes de dolor fueron 22 con Tr14, 34 con diclofenac y 40 con placebo.³"
+      ]
+    },
+    "time": {
+      "title": "Tiempos de mejoría",
+      "page": 2,
+      "paragraphs": [
+        "Gerdesmeyer mostró una reducción del dolor favorable a Tr14 frente a placebo y resultados de no inferioridad frente a diclofenac, con diferencias favorables en evaluaciones posteriores. La función se evaluó mediante cuestionario Foot and Ankle Ability Measure (FAAM). Destacó que el 50% de reducción del dolor con movimiento se alcanzó aproximadamente un día antes con Tr14 que con placebo o diclofenac; para dolor en reposo, señaló una diferencia de aproximadamente dos días. Resumió que, al día 7, los puntajes de dolor fueron 22 con Tr14, 34 con diclofenac y 40 con placebo.³",
+        "Finalmente presentó el metanálisis que integra los datos individuales de TAASS y TRAUMED. Según las diapositivas y su explicación, ambos ensayos mostraron resultados en la misma dirección, y el análisis combinado favoreció a Tr14 frente a diclofenac en los días 4, 7 y 14. La presentación destacó, además, una reducción del 50% del dolor aproximadamente 1.5 días más rápida con Tr14 en el análisis combinado.⁴"
+      ]
+    },
+    "evidence": {
+      "title": "Metanálisis y alcance del seguimiento",
+      "page": 2,
+      "paragraphs": [
+        "Finalmente presentó el metanálisis que integra los datos individuales de TAASS y TRAUMED. Según las diapositivas y su explicación, ambos ensayos mostraron resultados en la misma dirección, y el análisis combinado favoreció a Tr14 frente a diclofenac en los días 4, 7 y 14. La presentación destacó, además, una reducción del 50% del dolor aproximadamente 1.5 días más rápida con Tr14 en el análisis combinado.⁴",
+        "El cierre volvió al concepto inicial: el tratamiento del esguince no se reduce a una única herramienta. Para Gerdesmeyer, Tr14 debe entenderse como parte de una “orquesta” terapéutica integrada a la rehabilitación y al manejo global del tejido blando. También explicitó una limitación de TRAUMED: el seguimiento fue de 14 días, por lo que los efectos a más largo plazo requieren mayor investigación.³"
+      ]
+    }
+  },
+  "references": [
+    "Jordan PM, van Goethem E, Müller AM, et al. The natural combination medicine Traumeel (Tr14) improves resolution of inflammation by promoting the biosynthesis of specialized pro-resolving mediators. Pharmaceuticals (Basel). 2021;14(11):1123. doi:10.3390/ph14111123.",
+    "González de Vega C, Speed C, Wolfarth B, et al. Traumeel vs. diclofenac for reducing pain and improving ankle mobility after acute ankle sprain: a multicentre, randomised, blinded, controlled and non-inferiority trial. Int J Clin Pract. 2013;67(10):979–989.",
+    "Gerdesmeyer L, Vester J, Schneider C, et al. Topical treatment is effective and safe for acute ankle sprains: the multi-center double-blind randomized placebo-controlled TRAUMED Trial. J Clin Med. 2024;13(3):841.",
+    "Vester J, Gerdesmeyer L, Kerkhoffs G. Tr14 gel compared to diclofenac gel after acute unilateral ankle sprain: an Individual Patient Data (IPD) meta-analysis of two multi-center trials. BMC Musculoskelet Disord. 2026;27(1):372."
+  ]
+};
